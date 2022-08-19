@@ -42,8 +42,8 @@ const Forecast = ({ data }) => {
                     {item.weather[0].description}
                   </label>
                   <label className="min-max">
-                    {Math.round(item.main.temp_min)}°C /
-                    {Math.round(item.main.temp_max)}°C
+                    {Math.round(item.main.temp_min)}°F /
+                    {Math.round(item.main.temp_max)}°F
                   </label>
                 </div>
               </AccordionItemButton>
@@ -64,15 +64,15 @@ const Forecast = ({ data }) => {
                 </div>
                 <div className="daily-details-grid-item">
                   <label>Wind Speed:</label>
-                  <label>{item.wind.speed} m/s </label>
+                  <label>{item.wind.speed} mph</label>
                 </div>
                 <div className="daily-details-grid-item">
                   <label>Sea Level:</label>
-                  <label>{item.main.sea_level}m</label>
+                  <label>{item.main.sea_level} hPa</label>
                 </div>
                 <div className="daily-details-grid-item">
                   <label>Feels like:</label>
-                  <label>{Math.round(item.main.feels_like)}°C</label>
+                  <label>{Math.round(item.main.feels_like)}°F</label>
                 </div>
               </div>
             </AccordionItemPanel>
