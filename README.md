@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+Thanks to Slobodan and his awesome [Tutorial](https://www.youtube.com/watch?v=Reny0cTTv24&t=4884s) go watch for all the details.
+
+Also follow him on his [Github](https://github.com/bobangajicsm/react-weather-app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
